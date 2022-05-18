@@ -1,0 +1,35 @@
+
+  .bodyText{
+    position: relative;
+    height: 60vh;
+  }
+  
+  .bodyText h1{
+    border: 1px solid black;
+    background-color: var(--primary-color);
+    padding: 5%;
+    position: absolute;
+    font-size: 12vh;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    transition: ease-in-out 500ms;
+  }
+  .bodyText h1:hover{
+    background-color: black;
+    color: var(--logo-color);
+  }
+  .bodyText h1::after{
+    content: '' ;
+    background:var(--CTA);
+    display: block;
+    width: 100%;
+    height: 2px;
+    transition: 500ms;
+  }
+  .bodyText h1:hover::after{
+    background-color: var(CTA);
+    height: 150px;
+  }
+
+  

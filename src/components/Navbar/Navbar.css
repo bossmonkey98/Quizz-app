@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    background-color:var(--primary-color);
+}
+
+.btn{
+    flex: 1;
+    width: 6rem;
+    height:2rem;
+    font-family: 'Press Start 2P', cursive;
+    background-color: var(--CTA);
+    border: none;
+    color: var(--font-color);
+    margin: 0 2.5rem;
+}
+.app-logo{
+    flex: 1;
+}
+.logo-txt{
+    cursor: context-menu;
+    display: flex;
+    align-items: center;
+    color: var(--logo-color);
+    font-size:2rem;
+    width:fit-content;
+    font-size: 2rem;
+    height: 2rem;
+    margin: 0 3rem;
+    padding: 5px;
+
+}
+.logo-txt:hover{
+    color: var(--secondary-color);
+    transform: scale(1.2);
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+.btn:hover{
+    background-color: var(--secondary-color);
+    transform: scale(1.2);
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    transition: cubic-bezier(1, 0, 0, 1);
+
+}

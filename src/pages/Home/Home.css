@@ -1,0 +1,21 @@
+.p{
+    margin: 10px 10px 10px 0;
+}
+
+.exp-btn{
+    width: max-content;
+    height:3rem;
+    font-family: 'Press Start 2P', cursive;
+    background-color: var(--CTA);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.exp-btn:hover{
+    background-color: var(--secondary-color);
+    transform: scale(1.2);
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    transition: cubic-bezier(1, 0, 0, 1);
+
+}
