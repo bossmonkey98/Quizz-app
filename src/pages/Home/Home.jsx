@@ -4,7 +4,7 @@ import {Bot} from '../../components/bot/Bot'
 import './Home.css'
 const Home = () => {
   return (
-    <div style={{margin:"2rem"}}>
+    <div style={{margin:"2rem"}} className="home">
       <h1>Hello there I'm Quizzy</h1>
       <p className='p'>If you like to play quiz then you are at the right place</p>
       <Bot/>
