@@ -10,6 +10,7 @@
     padding: 5%;
     position: absolute;
     font-size: 12vh;
+    min-width: 15rem;
     left: 50%;
     top:50%;
     transform: translate(-50%, -50%);
