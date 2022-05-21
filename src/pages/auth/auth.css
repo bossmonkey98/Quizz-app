@@ -1,0 +1,56 @@
+#log-wrapper {
+    width: 100%;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #form-container {
+    width:50vw;
+    min-width:fit-content;
+    height:fit-content;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--CTA);
+    box-shadow: var(--logo-color) 0px 0px 10px 3px;
+  }
+  
+  .log-cred {
+    padding-left: 1rem;
+    margin: 5px;
+  }
+  
+  .log-btn {
+    display: flex;
+    column-gap: 10px;
+  }
+  
+  .sign-btn {
+    cursor: pointer;
+    width: 13rem;
+    height: 2rem;
+    background-color: var(--CTA);
+    border: none;
+    margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .form {
+    text-align: center;
+  }
+
+  .query{
+      width: 100%;
+      height: 2rem;
+      margin-top:5px;
+  }
+
+  .log-cred{
+    display: flex;
+    align-items: center;
+    margin:10px;
+    column-gap: 10px;
+  }

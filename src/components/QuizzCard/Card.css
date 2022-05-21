@@ -1,0 +1,44 @@
+.horizontal-card{
+    display: flex;
+    flex-direction: row;
+    width:45vw;
+    min-width: 35rem;
+    flex-shrink: 1;
+    height:12rem;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
+.horizontal-card:hover{
+    transform: scale(1.05);
+    transition: 500ms ease-in-out;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-btn{
+    cursor: pointer;
+    width: 8rem;
+    height: 2rem;
+    background-color: var(--CTA);
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.card-btn:hover{
+    background-color: var(--secondary-color);
+    transform: scale(1.1);
+    transition: cubic-bezier(1, 0, 0, 1);
+}
