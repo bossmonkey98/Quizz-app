@@ -10,8 +10,9 @@ const Qcard = ({q}) => {
   const ques= q
   var num = 0
   if(selectedAnswer === answer){
-    num = num+10
-    setScore(num)
+    num = num + 10
+    setScore(score+num)
+    setSelectedAnswer("")
   }
   return (
     <div>
