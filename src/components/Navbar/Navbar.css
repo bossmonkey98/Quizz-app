@@ -6,14 +6,16 @@
     background-color:var(--primary-color);
 }
 
-.btn{
+.opt-btn,.btn{
     cursor: pointer;
     flex: 1;
     width: 6rem;
+    min-width:max-content;
     height:2rem;
     font-family: 'Press Start 2P', cursive;
     background-color: var(--CTA);
     border: none;
+    padding: 5px;
 }
 .app-logo{
     margin: 0 3rem;
@@ -37,7 +39,7 @@
     transform: scale(1.2);
     transition: cubic-bezier(1, 0, 0, 1);
 }
-.sign-btn:hover,.btn:hover{
+.opt-btn:hover,.sign-btn:hover,.btn:hover{
     background-color: var(--secondary-color);
     transform: scale(1.2);
     transition: cubic-bezier(1, 0, 0, 1);

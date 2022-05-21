@@ -6,6 +6,7 @@ import { makeServer } from "./server";
 import { BrowserRouter } from "react-router-dom";
 import { CategoriesProvider } from "./context/CategoriesContext";
 import { AuthProvider } from "./context/AuthContext";
+import { QuizProvider } from "./context/quizContext";
 
 // Call make Server
 makeServer();
@@ -16,8 +17,9 @@ root.render(
     <BrowserRouter>
       <CategoriesProvider>
         <AuthProvider>
-
-          <App />
+          <QuizProvider>
+            <App />
+          </QuizProvider>
         </AuthProvider>
       </CategoriesProvider>
     </BrowserRouter>
