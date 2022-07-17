@@ -19,8 +19,10 @@
 }
 .app-logo{
     margin: 0 3rem;
-    width:min-content;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
 .logo-txt{
     cursor: context-menu;

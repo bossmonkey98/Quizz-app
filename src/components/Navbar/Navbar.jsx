@@ -1,13 +1,13 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import {useAuth} from '../../context/AuthContext'
-import {LogoutHandler} from "../../services/authandlers"
+import { LogoutHandler } from "../../services/authandlers"
 
 const Navbar = () => {
   const {user ,setUser} = useAuth()
   return (
       <nav className="navbar">
-        <NavLink to="/" className="app-logo">
+      <NavLink to="/" className="app-logo">
           <h1 className="logo-txt">Quizzy</h1>
         </NavLink>
         {!user.isUserLoggedIn?

@@ -2,5 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.rule{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 3rem;
 }

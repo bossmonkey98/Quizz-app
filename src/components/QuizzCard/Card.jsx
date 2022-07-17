@@ -6,7 +6,9 @@ const Card = ({quiz}) => {
   const {cat ,setCat} =useQuiz()
   return (
     <div className="horizontal-card">
-    <img className="card-img" src= {quiz.img} alt="#"/>
+      <div className="card-img">
+        <img className="card-img" src= {quiz.img} alt="#"/>
+      </div>
     <div className="card-content">
         <h2>{quiz.categoryName}</h2>
         <p>{quiz.description}</p>
