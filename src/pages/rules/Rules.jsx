@@ -4,7 +4,8 @@ import "./Rules.css"
 const Rules = () => {
   return (
     <div>
-      <h2 style={{margin:"2rem"}}>Rules</h2>
+      <h2 style={{ margin: "2rem" }}>Rules</h2>
+      <div className='rule'>
       <ul className='rules'>
           <li>Each question is provided with four options in which one of them is correct answer</li>
           <li>Time alloted for each question is 15 sec</li>
@@ -13,6 +14,7 @@ const Rules = () => {
           <li>There is no negative marking</li>
           <li>Be calm  and do your best</li>
       </ul>
+      </div>
       <Link to="/quiz">
       <button className='btn'>Proceed to quiz</button>
       </Link>
